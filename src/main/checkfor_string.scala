@@ -15,11 +15,10 @@
 //         index
 //     }
 // }
-
-
-import scala.util.matching.Regex
-object Solution {
+object Solution extends App{
     def strStr(haystack: String, needle: String): Int = {
         haystack.indexOf(needle, 0)
     }
+
+    strStr("Hello", "Hello")
 }

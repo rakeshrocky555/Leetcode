@@ -1,4 +1,4 @@
-object Solution {
+object Solution_1 extends App{
     def isPalindrome(x: Int): Boolean = {
         val str = x.toString()
         var result: Boolean = true
@@ -10,4 +10,6 @@ object Solution {
         result
     }
 
+    val result = isPalindrome(121)
+    println(s"is Palindrome: $result")
 }
