@@ -1,5 +1,12 @@
 package Non_DP.twopointers
 import scala.math._
+
+/*
+Longest Substring Without Repeating Characters
+Input: s = "abcabcbb"
+Output: 3
+Explanation: The answer is "abc", with the length of 3.
+* */
 object long_sub_norep extends App{
   def lengthOfLongestSubstring(s: String): Int = {
     var temp_map = Map[Char, Int]()
