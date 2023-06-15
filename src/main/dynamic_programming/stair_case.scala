@@ -1,4 +1,4 @@
-object Solution {
+object StairCase extends App{
     def climbStairs(n: Int): Int = {
         var res: Int = 0
         var arr = new Array[Int](n+1)

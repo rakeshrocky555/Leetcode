@@ -1,4 +1,4 @@
-object Solution_1 extends App{
+object Is_pallindrome extends App{
     def isPalindrome(x: Int): Boolean = {
         val str = x.toString()
         var result: Boolean = true

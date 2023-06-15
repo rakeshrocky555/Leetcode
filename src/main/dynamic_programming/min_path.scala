@@ -1,6 +1,6 @@
 import scala.math._
 
-object Solution {
+object Solution_2 {
     def minPathSum(grid: Array[Array[Int]]): Int = {
         val r = grid.length
         val c = grid.head.length

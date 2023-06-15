@@ -1,4 +1,4 @@
-object Solution {
+object Solution_1 {
     def uniquePaths(m: Int, n: Int): Int = {
         var arr = Array.ofDim[Int](m, n)
         for(i <- 0 to m-1){
