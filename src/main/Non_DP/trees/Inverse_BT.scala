@@ -15,13 +15,7 @@ object Inverse_BT extends App{
         case null => null
         case node if(node.left == null && node.right == null) => node
         case node => {
-          node_temp = node.left
-          node.left = node.right
-          node.right = node_temp
-
-          node.left = invert(node.left)
-          node.right = invert(node.right)
-          node
+          new TreeNode2(node.value, invert(node.right), invert(node.left))
         }
       }
     }
