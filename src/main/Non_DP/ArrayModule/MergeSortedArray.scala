@@ -1,4 +1,4 @@
-package Non_DP.Array
+package Non_DP.ArrayModule
 
 object MergeSortedArray extends App{
     def merge(nums1: Array[Int], m: Int, nums2: Array[Int], n: Int): Unit = {

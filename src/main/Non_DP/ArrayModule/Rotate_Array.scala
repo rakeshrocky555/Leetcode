@@ -1,4 +1,4 @@
-package Non_DP.Array
+package Non_DP.ArrayModule
 
 object Rotate_Array extends App{
 
